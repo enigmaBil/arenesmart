@@ -2632,7 +2632,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  padding-top: 115px;
+  padding-top: 50px;
   background: #1f2338; }
   @media (max-width: 991px) {
     .footer-area {
@@ -2719,7 +2719,7 @@ h6 {
     display: inline-block; }
   .footer-area .footer-bottom {
     border-top: 1px solid #4c4f60;
-    margin-top: 51px;
+    /*margin-top: 51px;*/
     padding: 20px 0; }
     @media (max-width: 991px) {
       .footer-area .footer-bottom {

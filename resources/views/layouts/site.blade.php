@@ -12,8 +12,11 @@
     <meta name="description" content="Gestion des reservations des stades">
     <meta name="keywords" content="gestion reservation stade cameroun" />
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- CSS pour Bootstrap Datepicker -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
     <link rel="icon" href="{{asset('frontend/img/favicon.ico')}}" type="image/icon">
-    <title>Favison SAAS</title>
+    <title>Accueil | ArenSmart</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/css/themify-icons.css')}}">
@@ -26,7 +29,7 @@
     @yield('css')
 </head>
 <body>
-
+@include('sweetalert::alert')
 <!--================Header Menu Area =================-->
 @include('inc.header')
 <!--================Header Menu Area =================-->
@@ -50,6 +53,8 @@
 <script src="{{asset('frontend/js/popper.js')}}"></script>
 <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!-- JS pour Bootstrap Datepicker (dépend de jQuery et Bootstrap) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <script src="{{asset('frontend/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
 <script src="{{asset('frontend/js/jquery.ajaxchimp.min.js')}}"></script>
 <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>

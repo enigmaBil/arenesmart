@@ -3,7 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [\App\Http\Controllers\frontend\FrontController::class, 'index'])->name('home');
+Route::get('/', [\App\Http\Controllers\Frontend\FrontController::class, 'index'])->name('home');
+Route::get('/admin', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

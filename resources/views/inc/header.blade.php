@@ -35,8 +35,8 @@
                 </div>
                 <div class="right-button">
                     <ul>
-                        <li><a class="login mx-2" href="#">Se connecter</a></li>
-                        <li><a class="sign_up" href="#">S'inscrire</a></li>
+                        <li><a class="login mx-2" href="{{route('login')}}">Se connecter</a></li>
+                        <li><a class="sign_up" href="{{route('register')}}">S'inscrire</a></li>
                     </ul>
                 </div>
             </div>
