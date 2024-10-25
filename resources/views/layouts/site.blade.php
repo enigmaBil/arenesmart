@@ -26,6 +26,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/css/starlight.css')}}">
     @yield('css')
 </head>
 <body>
