@@ -24,5 +24,9 @@ class DatabaseSeeder extends Seeder
 
         // Appel du seeder pour créer l'utilisateur admin
         $this->call(CreateAdminUserSeeder::class);
+
+        $this->call(ActivitySeeder::class);
+        $this->call(CitySeeder::class);
+        $this->call(QuartierSeeder::class);
     }
 }
