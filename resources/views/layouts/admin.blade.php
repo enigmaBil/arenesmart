@@ -202,6 +202,7 @@
     @yield('content')
     @include('admin.inc.footer')
 </div><!-- sl-mainpanel -->
+
 <!-- ########## END: MAIN PANEL ########## -->
 
 <script src="{{asset('backend/lib/jquery/jquery.js')}}"></script>

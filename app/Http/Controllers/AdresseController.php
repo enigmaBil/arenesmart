@@ -26,6 +26,7 @@ class AdresseController extends Controller
 
     public function store(Request $request)
     {
+//        dd($request);
         $request->validate([
             'city_id' => 'required|exists:cities,id',
             'po_box' => 'nullable|string|max:255',
