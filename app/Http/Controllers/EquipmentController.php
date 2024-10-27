@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Equipment;
 use Illuminate\Http\Request;
 
 class EquipmentController extends Controller
@@ -9,7 +10,7 @@ class EquipmentController extends Controller
     public function index()
     {
         $equipment = Equipment::all();
-        return view('equipment.index', compact('equipment'));
+        return view('admin.equipments.index', compact('equipment'));
     }
 
     public function show($id)
@@ -27,7 +28,7 @@ class EquipmentController extends Controller
     {
         $request->validate([
             'name' => 'required|string|max:255',
-            'quantity' => 'required|integer',
+            'description' => 'required|string',
             // Ajoutez d'autres validations nécessaires
         ]);
 

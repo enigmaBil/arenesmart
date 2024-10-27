@@ -1980,25 +1980,25 @@ fieldset[disabled] a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #23BF08;
-  border-color: #23BF08;
+  background-color: #39B54A;
+  border-color: #39B54A;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #1c9a06;
-  border-color: #1a8e06;
+  background-color: #39B54A;
+  border-color: #39B54A;
 }
 .btn-success:focus, .btn-success.focus {
   box-shadow: 0 0 0 3px rgba(35, 191, 8, 0.5);
 }
 .btn-success.disabled, .btn-success:disabled {
-  background-color: #23BF08;
-  border-color: #23BF08;
+  background-color: #39B54A;
+  border-color: #39B54A;
 }
 .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
-  background-color: #1c9a06;
+  background-color: #39B54A;
   background-image: none;
-  border-color: #1a8e06;
+  border-color: #39B54A;
 }
 
 .btn-info {
@@ -12114,8 +12114,8 @@ textarea.parsley-success:focus {
   color: #495057;
 }
 .sl-menu-link.active {
-  background-color: #5B93D3;
-  border-color: #5B93D3;
+  background-color: #39B54A;
+  border-color: #39B54A;
   color: #fff;
 }
 .sl-menu-link.active + .sl-menu-link {

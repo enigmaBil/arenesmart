@@ -101,9 +101,11 @@
         <div class="row row-sm mg-t-20">
             <div class="col-xl-8">
                 <div class="card overflow-hidden">
-                    <div class="card-header bg-transparent pd-y-20 d-sm-flex align-items-center justify-content-between">
+                    <div
+                        class="card-header bg-transparent pd-y-20 d-sm-flex align-items-center justify-content-between">
                         <div class="mg-b-20 mg-sm-b-0">
-                            <h6 class="card-title mg-b-5 tx-13 tx-uppercase tx-bold tx-spacing-1">Profile Statistics</h6>
+                            <h6 class="card-title mg-b-5 tx-13 tx-uppercase tx-bold tx-spacing-1">Profile
+                                Statistics</h6>
                             <span class="d-block tx-12">October 23, 2017</span>
                         </div>
                         <div class="btn-group" role="group" aria-label="Basic example">
@@ -115,7 +117,8 @@
                     <div class="card-body pd-0 bd-color-gray-lighter">
                         <div class="row no-gutters tx-center">
                             <div class="col-12 col-sm-4 pd-y-20 tx-left">
-                                <p class="pd-l-20 tx-12 lh-8 mg-b-0">Note: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula...</p>
+                                <p class="pd-l-20 tx-12 lh-8 mg-b-0">Note: Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit. Aenean commodo ligula...</p>
                             </div><!-- col-4 -->
                             <div class="col-6 col-sm-2 pd-y-20">
                                 <h4 class="tx-inverse tx-lato tx-bold mg-b-5">6,112</h4>
@@ -142,7 +145,8 @@
 
                 <div class="card pd-20 pd-sm-25 mg-t-20">
                     <h6 class="card-body-title tx-13">Horizontal Bar Chart</h6>
-                    <p class="mg-b-20 mg-sm-b-30">A bar chart or bar graph is a chart with rectangular bars with lengths proportional to the values that they represent.</p>
+                    <p class="mg-b-20 mg-sm-b-30">A bar chart or bar graph is a chart with rectangular bars with lengths
+                        proportional to the values that they represent.</p>
                     <canvas id="chartBar4" height="300"></canvas>
                 </div><!-- card -->
 
@@ -151,7 +155,8 @@
 
                 <div class="card pd-20 pd-sm-25">
                     <h6 class="card-body-title">Pie Chart</h6>
-                    <p class="mg-b-20 mg-sm-b-30">Labels can be hidden if the slice is less than a given percentage of the pie.</p>
+                    <p class="mg-b-20 mg-sm-b-30">Labels can be hidden if the slice is less than a given percentage of
+                        the pie.</p>
                     <div id="flotPie2" class="ht-200 ht-sm-250"></div>
                 </div><!-- card -->
 
@@ -168,7 +173,8 @@
                                     <span>Mienard B. Lumaad</span>
                                     <span>4:09am</span>
                                 </div>
-                                <p class="msg-summary">Many desktop publishing packages and web page editors now use...</p>
+                                <p class="msg-summary">Many desktop publishing packages and web page editors now
+                                    use...</p>
                             </div><!-- media-body -->
                         </a><!-- list-group-item -->
                         <a href="" class="list-group-item list-group-item-action media">
@@ -178,7 +184,8 @@
                                     <span>Isidore Dilao</span>
                                     <span>Yesterday 3:00am</span>
                                 </div>
-                                <p class="msg-summary">On the other hand, we denounce with righteous indignation and dislike...</p>
+                                <p class="msg-summary">On the other hand, we denounce with righteous indignation and
+                                    dislike...</p>
                             </div><!-- media-body -->
                         </a><!-- list-group-item -->
                         <a href="" class="list-group-item list-group-item-action media">
@@ -188,7 +195,8 @@
                                     <span>Kirby Avendula</span>
                                     <span>Yesterday 3:00am</span>
                                 </div>
-                                <p class="msg-summary">It is a long established fact that a reader will be distracted by the readable...</p>
+                                <p class="msg-summary">It is a long established fact that a reader will be distracted by
+                                    the readable...</p>
                             </div><!-- media-body -->
                         </a><!-- list-group-item -->
                         <a href="" class="list-group-item list-group-item-action media">
@@ -198,7 +206,8 @@
                                     <span>Roven Galeon</span>
                                     <span>Yesterday 3:00am</span>
                                 </div>
-                                <p class="msg-summary">Than the fact that climate change may be causing it to rapidly disappear... </p>
+                                <p class="msg-summary">Than the fact that climate change may be causing it to rapidly
+                                    disappear... </p>
                             </div><!-- media-body -->
                         </a><!-- list-group-item -->
                     </div><!-- list-group -->
