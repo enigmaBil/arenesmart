@@ -9,7 +9,7 @@ class Stadium extends Model
 {
     use HasFactory;
 
-    protected  $table = 'stadiums';
+    protected $table = 'stadiums';
 
     protected $fillable = ['name', 'capacity', 'adresse_id', 'activity_id', 'equipment_id'];
 
