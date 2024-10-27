@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Enums\ReservationStatus;
 
 return new class extends Migration
 {
@@ -18,7 +19,7 @@ return new class extends Migration
             $table->date('date')->nullable();
             $table->time('start_at')->nullable();
             $table->time('end_at')->nullable();
-            $table->enum('status', ['ACTIVE','COMPLETED', 'CANCELLED']);
+            $table->enum('status', array_column(ReservationStatus::cases(), 'value'))->default(ReservationStatus::ACTIVE);
             $table->timestamps();
         });
     }

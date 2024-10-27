@@ -26,6 +26,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
+    @livewireStyles
     @yield('css')
 </head>
 <body>
@@ -64,6 +65,7 @@
 <script src="{{asset('frontend/js/jquery.validate.min.js')}}"></script>
 <script src="{{asset('frontend/js/mail-script.js')}}"></script>
 <script src="{{asset('frontend/js/theme.js')}}"></script>
+@livewireScripts
 @yield('js')
 </body>
 
